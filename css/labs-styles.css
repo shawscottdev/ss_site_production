@@ -1,0 +1,322 @@
+/* INNER PAGE HEADERS */
+#inner-page-header{
+    position: relative;
+}
+
+#inner-page-header .header-content{
+    color:#fff;
+    padding:10% 0 10%;
+    text-align:center;
+}
+h2{
+    padding:0 15%;
+    padding-top:2%;
+    position: relative;
+    font-family: "Open Sans",sans-serif;
+    font-size: 4.4rem;
+    line-height: 4.8rem;
+    font-weight: 200;
+    letter-spacing: 0px;
+    text-align: center;
+    font-style: italic;
+    padding: 0% 15% 0px;
+    max-width:100%;
+}
+.white-bg {background-color:#fff;}
+
+
+#labs .bordered-text{
+	margin:10% 10% 0%;
+	line-height:1.5em;
+}
+
+#labs .script-header {
+    font-family: caflisch-script-pro, sans-serif;
+    font-size: 2em;
+}
+
+#labs .white-text a:link{color: #fff; text-decoration:none;}
+#labs .white-text a:visited{color: #fff; text-decoration:none;}
+#labs .white-text a:hover{color: #fff; text-decoration:none;}
+#labs .white-text a:active{color: #fff; text-decoration:underline;}
+
+.lp-header { background-color: #884517; text-align: center; background-size:cover; width:100%; padding-bottom:20%; max-height:500px;
+}
+
+.lp-resources-img {
+	width:100%; max-width:700px; /*max-height:382px; */height:auto;
+}
+.lp-header span{
+	display: inline-block; /*margin-top:5em;*/
+}
+
+.lp-resources-cta {
+    font-family:open sans,arial,sans-serif;
+    color:#cf2347;
+}
+.lp-resources-cta a:link {
+    font-style:italic;
+    color:#cf2347;
+}
+.lp-resources-cta a:hover,.lp-resources-cta a:visited{
+    text-decoration:none;
+    color:#cf2347;
+}
+.lp-resources-cta img{ 
+    margin:0 1% 1% 0!important;
+    max-width:24px;
+    border:none;
+}
+.lp-resources-cta a:link {text-decoration: none;}
+
+.section-title-h2 {
+	position: relative;
+	font-family: "Open Sans",sans-serif;
+	font-size: 4.4rem;
+	line-height: 4.8rem;
+	font-weight: 200;
+	letter-spacing: 0px;
+	text-align: center;
+	font-style: italic;
+	padding: 2% 15% 0px;
+	max-width:80%; 
+	margin:2% 10% 0%; 
+}
+
+.portfolio-h2 {
+    margin-bottom:2%!important;
+}
+
+.selection-description white-text p{color: #fff; text-align:center; margin-bottom: 0;}
+
+
+#labs .lp-header { 
+	background:url(../img/ss_labs_LP.jpg) no-repeat center; text-align: center; background-size:cover; width:100%; padding-bottom:20%; max-height:500px;
+}
+
+.btn-green{
+    background-color: #ffffff;
+    border:2px solid #77923d;
+    color:#77923d;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.btn-green:hover{
+    background-color: #77923d;
+    color:#ffffff;
+}
+
+
+.section-title {
+	padding-bottom:0px;
+}
+
+/*__________labs_____________*/
+
+.section-title-divider.pm-service-divider {
+    background-color:#76913b;
+}
+.purple-divider {
+    background-color:#6a5584;
+}
+.green-divider {
+    background-color:#76913b;
+}
+.green-bg {
+    background:#76913b;
+    padding:1em;
+}
+
+.service-cta-btn {
+   margin-top:2em;
+   margin-bottom:4em;
+}
+
+.btn-green{
+    background-color: #ffffff;
+    border:2px solid #76913b;
+    color:#76913b;
+    font-size:1em;
+    padding: 10px 20px;
+}
+.btn-green:hover{
+    background-color: #76913b;
+    color:#ffffff;
+    text-decoration: none;
+}
+.btn-ss-green {
+  color: #76913b;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #76913b;
+}
+.btn-ss-green:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background: #76913b;
+}
+
+.cta-green a:link {
+    font-style:italic;
+    color:#76913b;
+}
+.cta-green a:hover,
+.cta-green a:visited{
+    text-decoration:none;
+    color:#76913b;
+}
+
+.border-green a{
+    border-bottom:1px solid #76913b;
+}
+
+#labs_cap .capabilities-container {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.section-title-labs-cap {
+    margin-bottom: 2%;
+}
+
+#labs_cap .section-title {
+	padding-bottom:20px;
+}
+
+#labs_cap .div-section-description {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+#labs_cap .section-description {
+    font-size: 2rem;
+    color: #666;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-top:40px;
+}
+
+.border-green a{
+    border-bottom:1px solid #77923d;
+}
+
+.green-bg{background:#77923d;padding:.5em;}
+
+.sub-nav-lab a{
+    color:#ffffff;
+    font-size:1.2em;
+    font-weight: 600;
+    font-style: italic;
+    margin:.5em 0;
+    padding-bottom:4px;
+    border-bottom:1px solid #77923d;
+    display:inline-block;
+    text-decoration:none;
+}
+.sub-nav-lab a:hover{
+    padding-bottom:4px;
+   border-bottom:1px solid #ffffff;
+   text-decoration:none;
+}
+
+/*__________media queries_____________*/
+@media (max-width: 900px) {
+	.section-title{max-width:100%;
+	}
+}
+@media (max-width: 767px) {
+	.section-title{
+		/*padding:5% 5%;*/
+		font-size:2em;
+		line-height: 1.25;
+	}
+	.section-title-divider{
+		margin:5% auto;
+	}
+}
+    
+/* CAROUSEL HOME
+-------------------------------------------------- */
+#Container_Carousel{
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+.item img{
+     width:100%; 
+    
+    
+}
+body{
+      margin:0;
+    padding:0;
+    
+}
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.col-lg-12 { padding:0px; }
+
+
+#carouselTOP .carousel-control {
+    width: 4%;
+    background-image: none;
+    margin-top: 25%;
+}
+
+.background-green {
+    background-color: #76913b;
+    padding-bottom: 60px;
+}
+/* HOVER MASK 
+-------------------------------------------------- */
+.team-member-lab {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.team-member-lab:hover .hover-mask-lab {
+    opacity: .95;
+    filter:alpha(opacity=95);
+}
+
+.hover-mask-lab {
+    position: absolute;
+    color: #fff;
+    background: rgba(118, 145, 59, .95);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all .3s ease-out;
+    border-radius: 50%;
+}
+
+.team-member-lab .hover-mask-lab .project-title {
+    color: #fff;
+    padding: 45% 45% 2%;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.team-member-lab:hover .hover-mask-lab .project-title {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .col-sm-offset-1-and-half {
+        margin-left: 12.499999995%;
+    }
+}
