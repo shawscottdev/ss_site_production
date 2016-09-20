@@ -41,8 +41,8 @@
 <link rel="stylesheet" href="css/flexslider.css" />
 <link rel="stylesheet" href="css/team_viewer_min.css" />
 <link rel="stylesheet" href="css/jquery.bxslider.css" />
-<link id="main" rel="stylesheet" href="css/styles_min.css" />
-
+<link rel="stylesheet" href="css/styles_carousel.css" />
+<link rel="stylesheet" href="css/labs-styles.css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 <script src="https://use.typekit.net/jfw3eir.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -88,15 +88,42 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 <body data-spy="scroll" data-target="#main-nav" data-offset="400">
 	
 		<div id="page-loader"><span class="page-loader-gif"> </span></div>
-		
-		<header id="home" class="parallax-bg" data-parallax-background="img/ss_coverFLow.png" data-stellar-background-ratio=".5">
-			<div class="header-content">
-				<img class="header-logo" src="img/ss_logoHeader.png" alt="Shaw Scott Logo: Marketing Agency">
-				<a class="scrollto" href="#about"><span class="bordered-text">An Agency You'll&nbsp;<span class="script-header">love</span></span></a>
-				<a class="scroll-button scrollto" href="#about"><img class="arrow-down" src="img/sld_arrowDwn.png" alt="click here to visit the Shaw + Scott site" /></a>	
+		<header id="home">
+<!-- Carousel -->
+<div id="Container_Carousel">  
+<div class="rows">				
+	<div class="col-lg-12  col-md-12 col-sm-12 col-xs-12" >
+		<div id="HomeCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+			<div class="item active">
+			<a href="http://shawscott.com/labs"><img src="img/Carousel_LS_0_v2.jpg" alt="Second Slide"></a>
 			</div>
-		</header>
-        
+			<div class="item">
+			<a class="scrollto" href="#about"><img src="img/Carousel_SS_1_v2.jpg" alt="First Slide"></a>
+			</div>
+			<div class="item">
+			<img src="img/Carousel_Budapest.jpg" alt="Third Slide">
+			</div>
+		</div>
+			<!-- Controls -->
+			<div id="carouselTOP">
+			<a class="left carousel-control" href="#HomeCarousel" role="button" data-slide="prev">
+			<span class="fa fa-chevron-left fa-lg" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+      		</a>
+	  		<a class="right carousel-control" href="#HomeCarousel" role="button" data-slide="next">
+	  		<span class="fa fa-chevron-right fa-lg" aria-hidden="true"></span>
+	  		<span class="sr-only">Next</span>
+      		</a>
+      		</div>
+	</div>
+</div>
+</div>
+</div>		
+<!-- carousel  -->
+		</header>		
+		
 		<!--main nav-->
 		<div id="main-nav" class="navbar">
 			<div class="container-fluid">
@@ -104,12 +131,13 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
 						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand scrollto" href="#home"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
+					<a class="navbar-brand" href="#home"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
 				</div>
 				
 				<div id="site-nav" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="http://shawscott.com#capabilities" class="scrollto">CAPABILITIES</a></li>
+						<li><a href="http://shawscott.com/labs">LABS</a></li>
 						<li><a href="http://shawscott.com/portfolio">PORTFOLIO</a></li>
 						<li><a href="http://shawscott.com#team" class="scrollto">TEAM</a></li>
 						<li><a href="http://shawscott.com#resources" class="scrollto">RESOURCES</a></li>
@@ -132,7 +160,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 			  	</div>
                 <div class="row" align="center">
 					<div class="col-sm-4 col-sm-offset-2">
-						<img src="img/inc5000.png" width="90" alt="Inc. 5000 2015" />
+						<img src="img/inc5000_2016.png" width="90" alt="Inc. 5000 2016" />
 						<div class="resource-text-contain2">
 							<p>We are <span class="caflisch-script-pro">honored</span>&nbsp; to be<br />one of the fastest-growing<br />private U.S.&nbsp;companies</p>
 						</div>
@@ -177,12 +205,11 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 		<!-- SERVICES -->
 		<section id="capabilities">
 			<div class="parallax-bg light-type" data-parallax-background="img/ss_capabilities.png" data-stellar-background-ratio=".5">
-				<div class="headline-image">
-					<span class="bordered-text">OUR CAPABILITIES</span>
-				</div>
+				<div class="headline-image"><span class="bordered-text">OUR CAPABILITIES</span></div>
 			</div><!--background image-->
 			<div class="container padding-top-bottom">
 				<h2 class="section-title section-title-capabilities">We're savvy problem&nbsp;solvers</h2>
+				<hr class="section-title-divider purple-divider">
                 <div class="row">				
 					<div class="col-sm-4 text-center">
 					<div class="capabilities-container">
@@ -237,18 +264,18 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
   <div class="parallax-bg light-type" data-parallax-background="img/ss_team.png" data-stellar-background-ratio=".5">
   <div class="headline-image">
   	<span class="bordered-text">YOU'LL&nbsp;<span class="caflisch-script-pro">love</span>&nbsp; OUR&nbsp;TEAM</span>
-  </div>>
+  </div>
   </div><!--background image-->
   
   <div class="container-fluid padding-top-bottom">
-  <h2 class="section-title section-title-team">Get to know us</h2>
-  <hr class="section-title-divider" />
+	  <h2 class="section-title section-title-capabilities">Get to know us</h2>
+	  <hr class="section-title-divider green-divider">
   <div class="div-section-description">
   <p class="section-description">The secret to our outstanding value is our access to the best talent across multiple disciplines. We are passionate about driving client success and armed with deep industry expertise. Take a moment and get to know Shaw + Scott.</p>
   </div>
   <div class="row">
   <div class="col-md-12">
-  <div class="carousel carousel-showmanymoveone slide" id="carouselABC">
+  <div class="carousel carousel-showmanymoveone slide TeamPad" id="carouselABC">
   <a class="left carousel-control" href="#carouselABC" data-slide="prev"><img src="img/sld_arrowLft.png" class="left-arrow" alt="left arrow" /></a>
   <div class="carousel-inner">
   <div class="item active">	
@@ -295,7 +322,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
       </div>			
       </div>
   </div><!-- /item -->
-  <div class="item">		
+  <!-- <div class="item">		
       <div class="col-xs-12 col-sm-6 col-md-3 team-member">
       <div class="member-thumb">
       <img class="img-responsive img-center img-circle" src="img/home_team/richard.png" alt="Richard Rushing" />
@@ -305,7 +332,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
       <p class="title">VP Strategy + Analytics</p>
       </div>		
       </div>
-  </div><!-- /item -->
+  </div> --><!-- /item -->
   <div class="item">		
       <div class="col-xs-12 col-sm-6 col-md-3 team-member">
       <div class="member-thumb">
@@ -336,6 +363,39 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
       <div class="member-details">
       <h4>Eric Eun</h4>
       <p class="title">VP of Success</p>
+      </div>			
+      </div>
+  </div><!-- /item -->
+  <div class="item">		
+      <div class="col-xs-12 col-sm-6 col-md-3 team-member">
+      <div class="member-thumb">
+      <img class="img-responsive img-center img-circle" src="img/home_team/Aaron_300x300.png" alt="Aaron Smith" />
+      </div>			
+      <div class="member-details">
+      <h4>Aaron Smith</h4>
+      <p class="title">SVP of Shaw + Scott Labs</p>
+      </div>			
+      </div>
+  </div><!-- /item -->
+  <div class="item">		
+      <div class="col-xs-12 col-sm-6 col-md-3 team-member">
+      <div class="member-thumb">
+      <img class="img-responsive img-center img-circle" src="img/home_team/Jed_300x300.png" alt="Jed Tank" />
+      </div>			
+      <div class="member-details">
+      <h4>Jed Tank</h4>
+      <p class="title">VP of DevOps and Data Engineering</p>
+      </div>			
+      </div>
+  </div><!-- /item -->
+  <div class="item">		
+      <div class="col-xs-12 col-sm-6 col-md-3 team-member">
+      <div class="member-thumb">
+      <img class="img-responsive img-center img-circle" src="img/home_team/Thomas_300x300.png" alt="Thomas Westcott" />
+      </div>			
+      <div class="member-details">
+      <h4>Thomas Westcott</h4>
+      <p class="title">VP of Engineering</p>
       </div>			
       </div>
   </div><!-- /item -->
