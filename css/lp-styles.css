@@ -109,6 +109,7 @@ h2{
 
 .portfolio-h2 {
     margin-bottom:2%!important;
+    padding: 40px 0;
 }
 
 .selection-description white-text p{color: #fff; text-align:center; margin-bottom: 0;}
@@ -241,9 +242,9 @@ h2{
    margin-top:2em;
    margin-bottom:2em;
 }
-#careers .lp-header { 
+/*#careers .lp-header { 
     background:url(../img/Careers_Header.jpg) no-repeat center; text-align: center; background-size:cover; width:100%; padding-bottom:20%; max-height:713px;
-}
+}*/
 
 .section-title-divider-careers {
     margin:3% auto;
@@ -282,13 +283,13 @@ h2{
 }
 
 .panel-default {
-background:#f3f3f3;
+background:#fff;
 border: none !important;
 box-shadow: none;
 }
 
 .panel-heading {
-background:#f3f3f3;
+background:#fff!important;
 /*border: none !important;
 box-shadow: none !important;*/
 }
@@ -301,7 +302,10 @@ box-shadow: none !important;*/
     overflow-x:hidden;
     line-height: 1.5;
 }
-.panel-group{margin-top:15px;}
+.panel-group{
+    margin-top:15px;
+    background-color: #fff;
+}
 .panel-group .panel-heading .icon-indicator {
 margin-right: 10px;
 }
