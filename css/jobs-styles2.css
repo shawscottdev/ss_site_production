@@ -104,16 +104,16 @@ h2{
     background-color:#e36d25;
 }
 
-.btn-orange{
-    background-color: #e36d25;
+.btn-green{
+    background-color: #77923d;
     color:#ffffff;
     border:none;
     font-weight: 300;
     padding:10px 20px;
     margin-top:5px;
 }
-.btn-orange:hover{
-    background-color: #f77628;
+.btn-green:hover{
+    background-color: #647c31;
     color:#ffffff;
     border:none;
     font-weight: 300;
@@ -147,19 +147,18 @@ h2{
 }
 
 .panel-default {
-/*background:#fff;*/
+background:#fff;
 border: none !important;
 box-shadow: none;
 max-height: 800px;
 }
-.panel-body {background-color: #f3f3f3;}
 
 .long {
     max-height: 1400px;
 }
 
 .panel-heading {
-background:#f3f3f3!important;
+background:#fff!important;
 /*border: none !important;
 box-shadow: none !important;*/
 }
@@ -180,9 +179,9 @@ box-shadow: none !important;*/
     max-height: 200px;
 }
 
-/*.panel-group{
+.panel-group{
     background-color: #fff;
-}*/
+}
 .panel-group .panel-heading .icon-indicator {
 margin-right: 10px;
 }
@@ -402,9 +401,5 @@ content: "-";
     padding-bottom:0;
     text-align: center;
 }
-@media (max-width:420px) {
-    .bordered-text{
-        margin:8% 0% 0%;
-    }
 }
     
