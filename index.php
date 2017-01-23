@@ -37,7 +37,7 @@
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
    
 <link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
 <link rel="stylesheet" href="css/flexslider.css" />
 <link rel="stylesheet" href="css/team_viewer_min.css" />
 <link rel="stylesheet" href="css/jquery.bxslider.css" />
