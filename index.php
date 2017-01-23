@@ -37,7 +37,7 @@
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
    
 <link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
 <link rel="stylesheet" href="css/flexslider.css" />
 <link rel="stylesheet" href="css/team_viewer_min.css" />
 <link rel="stylesheet" href="css/jquery.bxslider.css" />
@@ -97,13 +97,14 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 			<div class="item active">
-			<a href="http://shawscott.com/labs"><img src="img/Carousel_LS_0_v2.jpg" alt="Second Slide"></a>
+			<a href="http://shawscott.com/labs"><img src="img/Carousel_LS_0_v2.jpg" alt="First Slide"></a>
 			</div>
 			<div class="item">
-			<a class="scrollto" href="#about"><img src="img/Carousel_SS_1_v2.jpg" alt="First Slide"></a>
+			<a class="scrollto" href="#about"><img src="img/Carousel_SS_1_v2.jpg" alt="Second Slide"></a>
 			</div>
+			
 			<div class="item">
-			<img src="img/Carousel_Budapest.jpg" alt="Third Slide">
+			<a href="http://shawscott.com/#contact"><img src="img/Carousel_BudapestLondon.jpg" alt="Fourth Slide"></a>
 			</div>
 		</div>
 			<!-- Controls -->
@@ -516,11 +517,11 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
           </div>
           </div>
           <div class="col-sm-4 resources-article">
-          <a href="resources-evolving-the-inbox-guide" class="resources-cta"><img src="img/Resources_LookBook.png" alt="LookBook" /></a>
+          <a href="http://content.shawscott.com/2016-shaw-scott-lookbook" class="resources-cta"><img src="img/Resources_LookBook_2016.png" alt="2016 Shaw + Scott LookBook" /></a>
           <div class="resource-text-contain">
-          <h4>EVOLVING THE INBOX:<br />2015 Lookbook</h4>
+          <h4>EVOLVING THE INBOX:<br />2016 Lookbook</h4>
           <p>Digital marketing's best-in-show.<br />(Feel free to be inspired.)</p>
-          <p class="lp-resources-cta"><a href="resources-evolving-the-inbox-guide"><img src="img/plus.png" alt="Resources" />Read&nbsp;more</a></p>
+          <p class="lp-resources-cta"><a href="http://content.shawscott.com/2016-shaw-scott-lookbook"><img src="img/plus.png" alt="Resources" />Download&nbsp;here</a></p>
           </div>
           </div>
       </div>
@@ -629,28 +630,8 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
   </div>
 </section>
 
-<!-- FOOTER -->	
-<footer id="footer" class="padding-top-bottom" style="clear:both;">
-  <div class="container text-center">
-    <div class="row">
-      <div class="social-icon-container">
-      <figure class="col-xs-2 col-xs-offset-2">
-      <a href="https://twitter.com/shawscott" target="_blank"><img src="img/ss_tw_icn.png" alt="Twitter" class="social-icn" /></a>
-      </figure>
-      <figure class="col-xs-2">
-      <a href="https://www.linkedin.com/company/shaw---scott" target="_blank"><img src="img/ss_ln_icn.png" alt="LinkedIn" class="social-icn" /></a>
-      </figure>
-      <figure class="col-xs-2">
-      <a href="https://www.youtube.com/c/ShawScottSeattle" target="_blank"><img src="img/ss_yt_icn.png" alt="You Tube" class="social-icn" /></a>
-      </figure>
-      <figure class="col-xs-2">
-      <a href="https://www.pinterest.com/shawscottevolve/" target="_blank"><img src="img/ss_pt_icn.png" alt="Pinterest" class="social-icn" /></a>
-      </figure>
-      </div>
-    </div>
-    <p>Copyright &copy; 2016 Shaw + Scott. All&nbsp;rights&nbsp;reserved.</p>
-  </div>
-</footer>
+<?php include 'footer.php';?>
+
 		
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
