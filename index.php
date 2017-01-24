@@ -89,67 +89,45 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 	
 		<div id="page-loader"><span class="page-loader-gif"> </span></div>
 		<header id="home">
-<!-- Carousel -->
-<div id="Container_Carousel">  
-<div class="rows">				
-	<div class="col-lg-12  col-md-12 col-sm-12 col-xs-12" >
-		<div id="HomeCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-			<div class="item active">
-			<a href="http://shawscott.com/labs"><img src="img/Carousel_LS_0_v2.jpg" alt="First Slide"></a>
-			</div>
-			<div class="item">
-			<a class="scrollto" href="#about"><img src="img/Carousel_SS_1_v2.jpg" alt="Second Slide"></a>
-			</div>
-			
-			<div class="item">
-			<a href="http://shawscott.com/#contact"><img src="img/Carousel_BudapestLondon.jpg" alt="Fourth Slide"></a>
+		<!-- Carousel -->
+		<div id="Container_Carousel">  
+		<div class="rows">				
+			<div class="col-lg-12  col-md-12 col-sm-12 col-xs-12" >
+				<div id="HomeCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+					<div class="item active">
+					<a href="http://shawscott.com/labs"><img src="img/Carousel_LS_0_v2.jpg" alt="First Slide"></a>
+					</div>
+					<div class="item">
+					<a class="scrollto" href="#about"><img src="img/Carousel_SS_1_v2.jpg" alt="Second Slide"></a>
+					</div>
+					
+					<div class="item">
+					<a href="http://shawscott.com/#contact"><img src="img/Carousel_BudapestLondon.jpg" alt="Fourth Slide"></a>
+					</div>
+				</div>
+					<!-- Controls -->
+					<div id="carouselTOP">
+					<a class="left carousel-control" href="#HomeCarousel" role="button" data-slide="prev">
+					<span class="fa fa-chevron-left fa-lg" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+		      		</a>
+			  		<a class="right carousel-control" href="#HomeCarousel" role="button" data-slide="next">
+			  		<span class="fa fa-chevron-right fa-lg" aria-hidden="true"></span>
+			  		<span class="sr-only">Next</span>
+		      		</a>
+		      		</div>
 			</div>
 		</div>
-			<!-- Controls -->
-			<div id="carouselTOP">
-			<a class="left carousel-control" href="#HomeCarousel" role="button" data-slide="prev">
-			<span class="fa fa-chevron-left fa-lg" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-      		</a>
-	  		<a class="right carousel-control" href="#HomeCarousel" role="button" data-slide="next">
-	  		<span class="fa fa-chevron-right fa-lg" aria-hidden="true"></span>
-	  		<span class="sr-only">Next</span>
-      		</a>
-      		</div>
-	</div>
-</div>
-</div>
-</div>		
-<!-- carousel  -->
+		</div>
+		</div>		
+		<!-- carousel  -->
 		</header>		
-		
-		<!--main nav-->
-		<div id="main-nav" class="navbar">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#home"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
-				</div>
-				
-				<div id="site-nav" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://shawscott.com#capabilities" class="scrollto">CAPABILITIES</a></li>
-						<li><a href="http://shawscott.com/labs">LABS</a></li>
-						<li><a href="http://shawscott.com/portfolio">PORTFOLIO</a></li>
-						<li><a href="http://shawscott.com#team" class="scrollto">TEAM</a></li>
-						<li><a href="http://shawscott.com#resources" class="scrollto">RESOURCES</a></li>
-                        <li><a href="http://www.shawscott.com/blog/">BLOG</a></li>
-                        <li><a href="http://shawscott.com/our_story">OUR STORY</a></li>
-						<li><a href="http://shawscott.com#contact" class="scrollto">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
 
+		<?php include 'index-nav.php';?>
+		
+		
 		<!-- ABOUT -->			
 		<section id="about" class="padding-top-bottom">
 			<div class="container">
