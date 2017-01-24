@@ -9,14 +9,14 @@
 			</div>
 			<div id="site-nav" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://shawscott.com#capabilities" class="scrollto">CAPABILITIES</a></li>
-				<li><a href="http://shawscott.com/labs">LABS</a></li>
-				<li><a href="http://shawscott.com/portfolio">PORTFOLIO</a></li>
-				<li><a href="http://shawscott.com#team" class="scrollto">TEAM</a></li>
-				<li><a href="http://shawscott.com/resources">RESOURCES</a></li>
-				<li><a href="http://www.shawscott.com/blog/">BLOG</a></li>
-				<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/our_story">OUR STORY</a></li>
-				<li><a href="http://shawscott.com/contact-us">CONTACT</a></li>
+				<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#capabilities" class="scrollto">CAPABILITIES</a></li>
+				<li><a href="labs">LABS</a></li>
+				<li><a href="portfolio">PORTFOLIO</a></li>
+				<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#team" class="scrollto">TEAM</a></li>
+				<li><a href="resources">RESOURCES</a></li>
+				<li><a href="blog/">BLOG</a></li>
+				<li><a href="our_story">OUR STORY</a></li>
+				<li><a href="contact-us">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
