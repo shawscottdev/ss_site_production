@@ -54,30 +54,11 @@
 </head>
 <body>
 
-	<!-- ==============================================
-	MAIN NAV
-	=============================================== -->
+	<?php include 'subpage-nav.php';?>
 
-	<div id="main-nav" class="navbar">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-				<!-- ======= LOGO ========-->
-				<a class="navbar-brand scrollto" href="index.html?utm_source=holiday_offers&utm_medium=landing-page&utm_campaign=2015HolidayOffersLP"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott Logo" /></a>
-			</div>
-			<div id="site-nav" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html?utm_source=holiday_offers&utm_medium=landing-page&utm_campaign=2015HolidayOffersLP">HOME</a></li>
-				</ul>
-			</div><!--End navbar-collapse -->
-		</div><!--End container -->
-	</div><!--End main-nav -->
-	
-	<!-- ==============================================
-	CONTENT
-	=============================================== -->
+  <!-- ==============================================
+  CONTENT
+  =============================================== -->
 	<section id="holiday-offers">
 		<div class="container-fluid">
 			<div class="lp-header">
@@ -120,34 +101,9 @@
 	=============================================== -->
 	<div style="background-color:#cf2347; height:2em; width:100%"></div>
 
-	<!-- ==============================================
-	FOOTER
-	=============================================== -->	
-	<footer id="footer" class="padding-top-bottom" style="clear:both;">
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-xs-2 col-xs-offset-1">
-	      <a href="https://www.facebook.com/shawscottagency" target="_blank"><img src="img/ss_fb_icn.png" alt="Twitter" class="social-icn" /></a>
-	      </div>
-	      <div class="col-xs-2">
-	      <a href="https://twitter.com/shawscott" target="_blank"><img src="img/ss_tw_icn.png" alt="Twitter" class="social-icn" /></a>
-	      </div>
+	<?php include 'footer.php';?>
 
-	      <div class="col-xs-2">
-	      <a href="https://www.linkedin.com/company/shaw---scott" target="_blank"><img src="img/ss_ln_icn.png" alt="LinkedIn" class="social-icn" /></a>
-	      </div>
-	      <div class="col-xs-2">
-	      <a href="https://www.youtube.com/c/ShawScottSeattle" target="_blank"><img src="img/ss_yt_icn.png" alt="You Tube" class="social-icn" /></a>
-	      </div>
-	      <div class="col-xs-2">
-	      <a href="https://www.pinterest.com/shawscottevolve/" target="_blank"><img src="img/ss_pt_icn.png" alt="Pinterest" class="social-icn" /></a>
-	      </div>
-	    </div>
-	    <p class="text-center">Copyright &copy; 2016 Shaw + Scott. All&nbsp;rights&nbsp;reserved.</p>
-	  </div>
-	</footer>
-	
-	<!-- ===SCRIPTS ===================== -->	
+<!-- ===SCRIPTS ===================== -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
 	<script src="js/libs/bootstrap.min.js"></script>
