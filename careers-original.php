@@ -57,30 +57,11 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </head>
 <body>
 
-	<!--main nav-->
-		<div id="main-nav" class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand scrollto" href="http://shawscott.com"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
-        </div>
-        
-        <div id="site-nav" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://shawscott.com#capabilities" class="scrollto">CAPABILITIES</a></li>
-            <li><a href="http://shawscott.com/portfolio">PORTFOLIO</a></li>
-            <li><a href="http://shawscott.com#team" class="scrollto">TEAM</a></li>
-            <li><a href="http://shawscott.com/resources">RESOURCES</a></li>
-            <li><a href="http://blog.shawscott.com/">BLOG</a></li>
-            <li><a href="http://shawscott.com/our_story">OUR STORY</a></li>
-            <li><a href="http://shawscott.com/contact-us">CONTACT</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-	
+	<?php include 'subpage-nav.php';?>
+
+  <!-- ==============================================
+  CONTENT
+  =============================================== -->
 	<section id="careers">
 		<div class="container-fluid">
 			<div class="lp-header">
@@ -484,30 +465,9 @@ Love your life</h2>
       </div>
   </div>
 </section>
+<?php include 'footer.php';?>
 
-<!-- FOOTER -->	
-<footer id="footer" class="padding-top-bottom">
-    <div class="container text-center">
-    <div class="row">
-    <div class="social-icon-container">
-        <figure class="col-xs-2 col-xs-offset-2">
-            <a href="http://twitter.com/intent/tweet?status=Career Opportunity:+http%3A//shawscott.com/careers.html" rel="me" class="ss-icon ss-social-regular" target="_blank"><img src="img/ss_tw_icn.png" alt="Share on Twitter" class="social-icn"></a>
-        </figure>
-        <figure class="col-xs-2">
-            <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://shawscott.com/careers.html&title=Shaw Scott Career Opportunities" target="_blank"><img src="img/ss_ln_icn.png" alt="Share on LinkedIn" class="social-icn"></a>
-        </figure>
-        <figure class="col-xs-2">
-            <a href="https://www.youtube.com/c/ShawScottSeattle" target="_blank"><img src="img/ss_yt_icn.png" alt="YouTube" class="social-icn"></a>
-        </figure>
-        <figure class="col-xs-2">
-        <a href="https://www.pinterest.com/pin/create/bookmarklet/?http://shawscott.com/careers.html&is_video=false&description=Shaw Scott Career Opportunities" rel="me" target="_blank"><img src="img/ss_pt_icn.png" alt="Share on Pinterest" class="social-icn"></a>
-        </figure>
-    </div>
-    </div>
-    <p>Copyright &copy; 2016 Shaw + Scott. All&nbsp;rights&nbsp;reserved.</p>
-    </div>
-</footer>
-
+<!-- ===SCRIPTS ===================== -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
 <script src="js/libs/bootstrap.min.js"></script>

@@ -37,15 +37,15 @@
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link id="main" rel="stylesheet" href="css/styles_min.css">
-<link rel="stylesheet" href="css/lp-styles.css">	
+<link rel="stylesheet" href="css/lp-styles.css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 <script src="https://use.typekit.net/jfw3eir.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-	
+
 <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-	
+
 <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
 <!--[if lt IE 9]>
 <script src="scripts/html5shiv.js"></script>
@@ -58,30 +58,12 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
 </head>
 <body>
- <!--main nav-->
-		<div id="main-nav" class="navbar">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand scrollto" href="http://shawscott.com"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
-				</div>
-				
-				<div id="site-nav" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://shawscott.com#capabilities" class="scrollto">CAPABILITIES</a></li>
-						<li><a href="http://shawscott.com/portfolio">PORTFOLIO</a></li>
-						<li><a href="http://shawscott.com#team" class="scrollto">TEAM</a></li>
-						<li><a href="http://shawscott.com/resources">RESOURCES</a></li>
-            <li><a href="http://blog.shawscott.com/">BLOG</a></li>
-            <li><a href="http://shawscott.com/our_story">OUR STORY</a></li>
-						<li><a href="http://shawscott.com/contact-us">CONTACT</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	
+
+  <?php include 'subpage-nav.php';?>
+
+  <!-- ==============================================
+  CONTENT
+  =============================================== -->
 	<section id="evolving-the-inbox">
 		<div class="container-fluid">
 			<div class="lp-header">
@@ -93,43 +75,20 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
         	<div class="div-section-description">
             <p class="section-description">Smart brands know to win the race for inbox attention it takes clever, savvy, relevant, and brilliantly designed email. Check out this sampling of 2015's most "evolved" emails and discover which campaigns topped the pecking order in the digital food chain.</p>
             <p><a href="http://shawscott.com/ssBooks/S+S_EvolvingtheInbox2015.pdf" class="btn-ss-red">READ NOW</a></p>
-                
-            <div class="post-footer">
+
+      <div class="post-footer">
 			<ul class="social-icons social-squared"><li><a href="http://www.facebook.com/sharer.php?u=http://shawscott.com/resources-evolving-the-inbox-guide.html" class="social-facebook" data-toggle="tooltip" data-placement="top" title="Share on Facebook"  target="_blank"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li><li><a href="https://twitter.com/share?url=http://shawscott.com/resources-evolving-the-inbox-guide.html&text=Evolving the Inbox" class="social-twitter" data-toggle="tooltip" data-placement="top" title="Share on Twitter"  target="_blank"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li><li><a href="https://plus.google.com/share?url=http://shawscott.com/resources-evolving-the-inbox-guide.html" class="social-google-plus" data-toggle="tooltip" data-placement="top" title="Share on Google Plus"  target="_blank"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li><li><a href="https://pinterest.com/pin/create/bookmarklet/?media=&url=http://shawscott.com/resources-evolving-the-inbox-guide.html&is_video=false&description=Evolving the Inbox" class="social-pinterest" data-toggle="tooltip" data-placement="top" title="Share on Pinterest"  target="_blank"><i class="fa fa-pinterest"></i><i class="fa fa-pinterest"></i></a></li><li><a href="http://www.linkedin.com/shareArticle?url=http://shawscott.com/resources-evolving-the-inbox-guide.html&title=Evolving the Inbox" class="social-linkedin" data-toggle="tooltip" data-placement="top" title="Share on Linkedin"  target="_blank"><i class="fa fa-linkedin"></i><i class="fa fa-linkedin"></i></a></li><li><a href="http://reddit.com/submit?url=http://shawscott.com/resources-evolving-the-inbox-guide.html&title=Evolving the Inbox" class="social-reddit" data-toggle="tooltip" data-placement="top" title="Share on Reddit"  target="_blank"><i class="fa fa-reddit"></i><i class="fa fa-reddit"></i></a></li><li><a href="mailto:?subject=Evolving the Inbox Guide&body=http://shawscott.com/resources-evolving-the-inbox-guide.html" class="social-email" data-toggle="tooltip" data-placement="top" title="Share by Email"  target="_blank"><i class="fa fa-envelope-o"></i><i class="fa fa-envelope-o"></i></a></li></ul>
                </div>
-                    
             <a href="http://shawscott.com/ssBooks/S+S_EvolvingtheInbox2015.pdf"><img src="img/Resources_LookBook_LPB.png" alt="2015 Evolving the Inbox" class="lp-resources-img" /></a>
 		  	</div>
 		</div>
 	</section>
-	
-	<div style="background-color:#cf2347; height:2em; width:100%"></div>
-    
-<!-- FOOTER-->	
-<footer id="footer" class="padding-top-bottom" style="clear:both;">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-2 col-xs-offset-1">
-      <a href="https://www.facebook.com/shawscottagency" target="_blank"><img src="img/ss_fb_icn.png" alt="Twitter" class="social-icn" /></a>
-      </div>
-      <div class="col-xs-2">
-      <a href="https://twitter.com/shawscott" target="_blank"><img src="img/ss_tw_icn.png" alt="Twitter" class="social-icn" /></a>
-      </div>
 
-      <div class="col-xs-2">
-      <a href="https://www.linkedin.com/company/shaw---scott" target="_blank"><img src="img/ss_ln_icn.png" alt="LinkedIn" class="social-icn" /></a>
-      </div>
-      <div class="col-xs-2">
-      <a href="https://www.youtube.com/c/ShawScottSeattle" target="_blank"><img src="img/ss_yt_icn.png" alt="You Tube" class="social-icn" /></a>
-      </div>
-      <div class="col-xs-2">
-      <a href="https://www.pinterest.com/shawscottevolve/" target="_blank"><img src="img/ss_pt_icn.png" alt="Pinterest" class="social-icn" /></a>
-      </div>
-    </div>
-    <p class="text-center">Copyright &copy; 2016 Shaw + Scott. All&nbsp;rights&nbsp;reserved.</p>
-  </div>
-</footer>
-    
+	<div style="background-color:#cf2347; height:2em; width:100%"></div>
+
+  <?php include 'footer.php';?>
+
+  <!-- ===SCRIPTS ===================== -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
 <script src="js/libs/bootstrap.min.js"></script>

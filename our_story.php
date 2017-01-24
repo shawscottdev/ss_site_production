@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <title>Shaw + Scott: A Marketing Agency</title>
 <meta name="wot-verification" content="1e22d83c87720ad0af80"/>
-<meta name="Keywords" content="digital marketing agency,email marketing,email agency,strategic services,creative,marketing consulting,partnership,agency"> 
-<meta name="Description" content="Shaw + Scott is an agency designed for the modern world. Founded on the hallmarks of diversity, flexibility, partnership and innovation, we want everyone who is part of the Shaw + Scott family to love what they do, love working with us, and love their life."> 
-<meta http-equiv="pragma" content="no-cache"> 
-<meta http-equiv="cache-control" content="no-cache"> 
+<meta name="Keywords" content="digital marketing agency,email marketing,email agency,strategic services,creative,marketing consulting,partnership,agency">
+<meta name="Description" content="Shaw + Scott is an agency designed for the modern world. Founded on the hallmarks of diversity, flexibility, partnership and innovation, we want everyone who is part of the Shaw + Scott family to love what they do, love working with us, and love their life.">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
 <meta name="robots" content="index,follow">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,15 +38,15 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link id="main" rel="stylesheet" href="css/styles_min.css" />
-<link rel="stylesheet" href="css/lp-styles.css">	
+<link rel="stylesheet" href="css/lp-styles.css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 <script src="https://use.typekit.net/jfw3eir.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-	
+
 <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-	
+
 <script type="text/javascript" src="js/libs/modernizr.min.js"></script>
 <!--[if lt IE 9]>
 <script src="scripts/html5shiv.js"></script>
@@ -56,34 +56,12 @@ setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0050/3376.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>	
+</script>
 </head>
 <body>
 
-	<!-- ==============================================
-	MAIN NAV
-	=============================================== -->
-	<div id="main-nav" class="navbar">
-		<div class="container-fluid">
-			<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-			<a class="navbar-brand" href="http://shawscott.com"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
-			</div>
-			<div id="site-nav" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://shawscott.com#capabilities" class="scrollto">CAPABILITIES</a></li>
-				<li><a href="http://shawscott.com/labs">LABS</a></li>
-				<li><a href="http://shawscott.com/portfolio">PORTFOLIO</a></li>
-				<li><a href="http://shawscott.com#team" class="scrollto">TEAM</a></li>
-				<li><a href="http://shawscott.com/resources">RESOURCES</a></li>
-				<li><a href="http://www.shawscott.com/blog/">BLOG</a></li>
-				<li><a href="http://shawscott.com/our_story">OUR STORY</a></li>
-				<li><a href="http://shawscott.com/contact-us">CONTACT</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
+	<?php include 'subpage-nav.php';?>
+
 	<!-- ==============================================
 	CONTENT
 	=============================================== -->
@@ -111,40 +89,14 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 		</div><!--End container -->
 	</section>
 
+  <?php include 'footer.php';?>
 
-	<!-- ==============================================
-	FOOTER
-	=============================================== -->	
-	<footer id="footer" class="padding-top-bottom" style="clear:both;">
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-xs-2 col-xs-offset-1">
-	      <a href="https://www.facebook.com/shawscottagency" target="_blank"><img src="img/ss_fb_icn.png" alt="Twitter" class="social-icn" /></a>
-	      </div>
-	      <div class="col-xs-2">
-	      <a href="https://twitter.com/shawscott" target="_blank"><img src="img/ss_tw_icn.png" alt="Twitter" class="social-icn" /></a>
-	      </div>
-
-	      <div class="col-xs-2">
-	      <a href="https://www.linkedin.com/company/shaw---scott" target="_blank"><img src="img/ss_ln_icn.png" alt="LinkedIn" class="social-icn" /></a>
-	      </div>
-	      <div class="col-xs-2">
-	      <a href="https://www.youtube.com/c/ShawScottSeattle" target="_blank"><img src="img/ss_yt_icn.png" alt="You Tube" class="social-icn" /></a>
-	      </div>
-	      <div class="col-xs-2">
-	      <a href="https://www.pinterest.com/shawscottevolve/" target="_blank"><img src="img/ss_pt_icn.png" alt="Pinterest" class="social-icn" /></a>
-	      </div>
-	    </div>
-	    <p class="text-center">Copyright &copy; 2016 Shaw + Scott. All&nbsp;rights&nbsp;reserved.</p>
-	  </div>
-	</footer>
-	
-	<!-- ===SCRIPTS ===================== -->	
+	<!-- ===SCRIPTS ===================== -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
 	<script src="js/libs/bootstrap.min.js"></script>
 	<script src="js/jquery.flexslider.min.js"></script>
-	<script src="js/jquery.stellar.js"></script> 
+	<script src="js/jquery.stellar.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/waypoints-sticky.min.js"></script>
 	<script src="js/quattro.js"></script>
