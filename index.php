@@ -97,7 +97,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
 					<div class="item active">
-					<a href="http://shawscott.com/labs"><img src="img/Carousel_LS_0_v2.jpg" alt="First Slide"></a>
+					<a href="http://shawscott.com/labs"><img src="http://shawscott.com/img/Carousel_SS_1_v2.jpg" alt="First Slide"></a>
 					</div>
 					<div class="item">
 					<a class="scrollto" href="#about"><img src="img/Carousel_SS_1_v2.jpg" alt="Second Slide"></a>

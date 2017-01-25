@@ -5,7 +5,7 @@
 		<div class="container-fluid">
 			<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-			<a class="navbar-brand" href="http://shawscott.com"><img class="site-logo" src="img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
+			<a class="navbar-brand" href="http://shawscott.com"><img class="site-logo" src="http://shawscott.com/img/ss_logoGrey_nav.png" alt="Shaw Scott: a digital marketing agency" /></a>
 			</div>
 			<div id="site-nav" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
