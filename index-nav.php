@@ -11,14 +11,14 @@
 	
 	<div id="site-nav" class="navbar-collapse collapse">
 		<ul class="nav navbar-nav navbar-right">
-			<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#capabilities" class="scrollto">CAPABILITIES</a></li>
-			<li><a href="labs">LABS</a></li>
-			<li><a href="portfolio">PORTFOLIO</a></li>
-			<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#team" class="scrollto">TEAM</a></li>
-			<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#resources" class="scrollto">RESOURCES</a></li>
-	        <li><a href="http://www.shawscott.com/blog/">BLOG</a></li>
-	        <li><a href="our_story">OUR STORY</a></li>
-			<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#contact" class="scrollto">CONTACT</a></li>
+		<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#capabilities" class="scrollto">CAPABILITIES</a></li>
+		<li><a href="labs">LABS</a></li>
+		<li><a href="portfolio">PORTFOLIO</a></li>
+		<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#team" class="scrollto">TEAM</a></li>
+		<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#resources" class="scrollto">RESOURCES</a></li>
+        <li><a href="http://www.shawscott.com/blog/">BLOG</a></li>
+        <li><a href="our_story">OUR STORY</a></li>
+		<li><a href="http://shawscott.com/sandBox/SS_Website_PRODUCTION/#contact" class="scrollto">CONTACT</a></li>
 		</ul>
 	</div>
 </div>
